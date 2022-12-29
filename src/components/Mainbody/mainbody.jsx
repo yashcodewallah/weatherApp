@@ -1,7 +1,7 @@
 import React from 'react'
-import Entry from './entry'
+import Entry from './entry/entry'
 import "./mainbody.css";
-import Data from "./data";
+import Data from "./data/data";
 
 
 
