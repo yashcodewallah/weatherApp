@@ -1,0 +1,7 @@
+.app-container{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+flex-grow: 1;
+}

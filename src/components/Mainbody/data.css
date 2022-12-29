@@ -1,0 +1,53 @@
+.data-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.location-name{
+    color: #1C315E;
+    font-family: "roboto";
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.data-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 2;
+}
+.data-right{
+    flex: 1;
+}
+.data-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.weather{
+    margin-left: 40%;
+    color: #a52a;
+    font-size: 55px;
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.button{
+    width: 20%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: grey;
+}
+.location-temp{
+    color: grey;
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+font-weight: 600;
+
+}
