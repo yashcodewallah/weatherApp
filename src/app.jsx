@@ -23,8 +23,8 @@ export default function App() {
 
   return (
     <div className='app-container'>
-        <Navbar />
-        <Mainbody setLocation={setLocation} data={data} body={body} setBody={setBody} />
+        <Navbar className="navbar"/>
+        <Mainbody className="mainbody" setLocation={setLocation} data={data} body={body} setBody={setBody} />
         <Footer className='footer' />
     </div>
   )
